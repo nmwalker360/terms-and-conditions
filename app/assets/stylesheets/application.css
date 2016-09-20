@@ -1,0 +1,121 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+html, body{
+  font-family: 'Montserrat', sans-serif;
+   font-size: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.headings
+{
+	color: #0094de;
+}
+
+/*--navgation start here--*/
+.top-nav {
+    margin: 0em 0em 1.5em 0em;
+}
+div#bs-example-navbar-collapse-1 {
+  padding: 0px;
+  background:#34495E;
+}
+ul.dropdown-menu li {
+  border-right: none !important;
+}
+.top-nav ul {
+  padding: 0em;
+  list-style: none;
+}
+.top-nav ul li {
+  display: inline-block;
+  float: left;
+    line-height: 0.6em;
+    border-right: 1px solid #000;
+}
+.top-nav ul li a {
+  font-size: 1em;
+  color:#7d91a3;
+  display: inline-block;
+  text-decoration:none;
+  padding: 1em 2em;
+  background: #34495e;
+
+}
+.top-nav ul li a:hover,.header-right ul li a.active{
+	 background:#337AB7;
+	 color:#fff;
+}
+.top-nav ul li.serc {
+  display: inline-block;
+  margin: 0em 0em 0em 0em;
+  background: #34495E;
+  text-align: center;
+  padding: 0.65em 0em 0.65em 0em;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background: #337AB7;
+  color:#fff;
+}
+ul.nav.navbar-nav li a {
+  background: #34495E;
+  color:#7d91a3;
+}
+ul.nav.navbar-nav li a:hover{
+  background: #337AB7;
+  color:#fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #337AB7;
+  color:#fff;
+}
+ul.dropdown-menu li a{
+  background: #34495e;
+  padding: 0.5em 2.5em 0.5em 2.5em;
+  text-align: center;
+  display:block;
+}
+ul.dropdown-menu li a:hover{
+	 background:#337AB7;
+}
+ul.nav.navbar-nav {
+  float: left;
+  width: 69%;
+}
+.navbar-form .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  width:95%;
+  background: #fff;
+}
+.navbar-left {
+  float:right !important;
+  position: relative;
+  margin: 0px 0 0 0px;
+  background: #34495e;
+  padding: 9px 5px 9px 10px;
+  width: 19%;
+}  
